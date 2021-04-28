@@ -44,3 +44,21 @@ body{
     text-decoration:underline 1px #0d5b7a;
     transition: all .25s;
 }
+#dropmenu{
+    
+    background-color: #ffffff25;
+}
+#dropmenu:hover{
+    background-color: #ffffff25;
+}
+#dropitems{
+  color: whitesmoke;
+}
+#dropitems:hover{
+    background-color: #ffffff25;
+  color: whitesmoke;
+  border:solid 1px #0d5b7a;
+}
+#header{
+    margin-top: 10rem;
+}

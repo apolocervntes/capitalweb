@@ -5,16 +5,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="description"
-            content="Spify is a business website Bootstrap HTML template designed to present startups in a beautiful manner with features for description, services, projects and lead generation">
+        <meta name="description" content="Desarrollo web bien hecho asi de simple">
         <meta name="author" content="Capital Web">
-        <meta property="og:site_name" content="" /> <!-- website name -->
-        <meta property="og:site" content="" /> <!-- website link -->
-        <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
-        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-        <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+        <meta property="og:site_name" content="CAPITAL WEB" /> <!-- website name -->
+        <meta property="og:site" content="https://webcapital.netlify.app" /> <!-- website link -->
+        <meta property="og:title" content="CAPITAL WEB" /> <!-- title shown in the actual shared post -->
+        <meta property="og:description" content="Desarrollo web bien hecho asi de simple" />
+        <!-- description shown in the actual shared post -->
+        <meta property="og:image"
+            content="https://github.com/apolocervntes/capitalweb/blob/main/media/header%20back.jpg?raw=true" />
+        <!-- metas for sociaal media -->
+        <meta name="twitter:title" content="Capital Web">
+        <meta name="twitter:description" content="Desarrollo web bien hecho asi de simple">
+        <meta name="twitter:image"
+            content="https://github.com/apolocervntes/capitalweb/blob/main/media/header%20back.jpg?raw=true">
+        <meta name="twitter:card" content="summary_large_image">
+
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&display=swap"
             rel="stylesheet">
@@ -47,16 +54,35 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">servicios</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">desarollo web</a>
-                            <a class="dropdown-item" href="#">Diseño web</a>
-                            <a class="dropdown-item" href="#">Hosting</a>
+                        <div class="dropdown-menu" id="dropmenu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item text-uppercase" id="dropitems" href="#">desarollo web</a>
+                            <a class="dropdown-item text-uppercase" id="dropitems" href="#">Diseño web</a>
+                            <a class="dropdown-item text-uppercase" id="dropitems" href="#">Hosting</a>
                         </div>
                     </li>
                 </div>
             </div>
         </nav>
 
+
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 "></div>
+                    <div class="col-lg-6 ">
+                        <div class="image-container">
+                            <img class="img-fluid " src="/media/logocw.svg" alt="C//W">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 "></div>
+                </div>
+            </div>
+            <div class="container" id="herotxt">
+                <div class="text-container">
+                    <p>desarrollo web </p>
+                </div>
+            </div>
+        </header>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"></script>
