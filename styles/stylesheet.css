@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    background-color: #0a0a0a;
+}
+
+.landing{ 
+    
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.landing h1{
+  
+    font-family: 'montserrat';
+    font-weight: 100;
+    padding: 3rem 3rem 0.5rem 3rem;
+    border-bottom: 2px solid #0d5b7a;
+
+    
+}
+.landing .btn{
+    font-weight: 100;
+    background-color:#0d5b7a;
+}
+.landing .btn:hover{
+    color: whitesmoke;
+    font-weight: 100;
+    background-color:#7a0d0d15;
+    border: solid 2px #0d5b7a;
+    transition: all .25s;
+}
+#footer .nav-link {
+    display: flex;
+    color: whitesmoke ;
+    padding:0em 2.5em;
+}
+#footer .nav-link:hover{
+    color: whitesmoke ;
+    text-decoration:underline 1px #0d5b7a;
+    transition: all .25s;
+}
