@@ -10,6 +10,16 @@ body{
 	flex-direction: column;
 
 }
+#hero-txt{	
+	color: whitesmoke;
+	margin:0em 10em 15em 10em;
+}
+#hero-txt h1{
+	font-family: "montserrat";
+}
+#webs{
+	color:#348cd2 ;
+}
 
 .header .image-container {
 	display:block;
@@ -79,7 +89,7 @@ body{
 /*****************/
 .header {
 	padding-top: 7rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.4)), url('/media/header\ back.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('/media/header\ back.jpg') center center no-repeat;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -101,33 +111,30 @@ body{
 	margin-bottom: 7rem;
 }
 
-.header .services {
+.services {
 	padding-top: 4.5rem;
 	padding-bottom: 0.375rem;
 	background: linear-gradient(to bottom right, #348cd2, #00ff9d);
 }
 
-.header .card {
+.card {
 	margin-bottom: 4rem;
 	border: 0;
 	background-color: transparent;
 }
-
-.header .card .fas {
+.card .fas {
 	margin-bottom: 1.75rem;
 	color: #ffffff;
 	font-size: 4rem;
 }
 
-.header .card-body {
+ .card-body {
 	padding: 0;
 }
-
-.header .card h5 {
+.card h5 {
 	margin-bottom: 0.5rem;
 	color: #ffffff;
 }
-
-.header .card .card-text {
+.card .card-text {
 	color: #ffffff;
 }
