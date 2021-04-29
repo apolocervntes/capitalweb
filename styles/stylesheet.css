@@ -113,8 +113,6 @@ body{
 
 #services {
 	color: whitesmoke;
-	padding-top: 5rem;
-	padding-bottom: 0.3rem;
 	background: linear-gradient(to bottom right, #348cd2, #00ff9d);
 }
 .b-example-divider {
